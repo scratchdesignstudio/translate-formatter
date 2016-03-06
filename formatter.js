@@ -8,6 +8,6 @@ window.onload = function(){
   result = document.getElementById('result');
 };
 
-window.onKeyUp = function(){
+document.onkeyup = function(){
   result.innerHTML = link.value + "\n" + "<br/>" + age.value + "\n" + "<br/>" + appropriate.value + "\n" + "<br/>" + patience.value + "\n" + "<br/><br/>"; 
 };
