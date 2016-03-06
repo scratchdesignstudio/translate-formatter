@@ -9,5 +9,5 @@ window.onload = function(){
 };
 
 document.onkeyup = function(){
-  result.innerHTML = link.value + "\\n" + "\<br/>" + age.value + "\\n" + "\<br/>" + appropriate.value + "\\n" + "\<br/>" + patience.value + "\\n" + "\<br/>\<br/>"; 
+  result.innerHTML = link.value + "\\n" + "&lt;br/&gt;" + age.value + "\\n" + "&lt;br/&gt;" + appropriate.value + "\\n" + "&lt;br/&gt;" + patience.value + "\\n" + "&lt;br/&gt;&lt;br/&gt;"; 
 };
