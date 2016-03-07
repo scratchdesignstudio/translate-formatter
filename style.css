@@ -4,6 +4,9 @@ body {
 }
 div {
   width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
   background-color: #9C0;
   color: #FFFFFF;
 }
