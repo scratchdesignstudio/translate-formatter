@@ -2,7 +2,7 @@ body {
   background-color: #F2F2F2;
   color: #6B6B6B;
 }
-#headers {
+#header1, #header2 {
   width: 100%;
   position: absolute;
   left: 0;
