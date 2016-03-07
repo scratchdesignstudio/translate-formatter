@@ -2,13 +2,14 @@ body {
   background-color: #F2F2F2;
   color: #6B6B6B;
 }
-div {
+#headers {
   width: 100%;
   position: absolute;
   left: 0;
   right: 0;
   background-color: #9C0;
   color: #FFFFFF;
+  padding: 5px;
 }
 h2 {
   padding: 0px;
