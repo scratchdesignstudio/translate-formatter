@@ -11,6 +11,9 @@ body {
   color: #FFFFFF;
   padding: 5px;
 }
+#standardContent {
+  margin: 10px;
+}
 h2 {
   padding: 0px;
   margin: 0px;
