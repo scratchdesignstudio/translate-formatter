@@ -5,7 +5,7 @@ document.onkeyup = function(){
   appropriate = document.getElementById('appropriate').value + "\\n" + "&lt;br/&gt;";
   patience = document.getElementById('patience').value + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   whatIsSDS = document.getElementById('whatIsSDS').value + "\\n";
-  selected = document.getElementById('selected').value + " &lt;a href=\"https://scratch.mit.edu/projects/55738732/\"&gt;" + "https://scratch.mit.edu/projects/55738732/" + "&lt;/a&gt;" + "\\n";
+  selected = " " + document.getElementById('selected').value + " &lt;a href=\"https://scratch.mit.edu/projects/55738732/\"&gt;" + "https://scratch.mit.edu/projects/55738732/" + "&lt;/a&gt;" + "\\n";
   ask = document.getElementById('ask').value + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   idea = document.getElementById('idea').value + " &lt;a href=\"https://scratch.mit.edu/studios/93627/\"&gt;" + "https://scratch.mit.edu/studios/93627/" + "&lt;/a&gt;" + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   wiki = document.getElementById('wiki').value + " &lt;a href=\"http://wiki.scratch.mit.edu/wiki/SDS/\"&gt;" + "http://wiki.scratch.mit.edu/wiki/SDS/" + "&lt;/a&gt;" + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
