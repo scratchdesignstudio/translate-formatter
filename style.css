@@ -10,9 +10,7 @@ body {
   background-color: #9C0;
   color: #FFFFFF;
   padding: 5px;
-}
-#standardContent {
-  margin: 10px;
+  z-index: 100000;
 }
 h2 {
   padding: 0px;
