@@ -12,5 +12,5 @@ document.onkeyup = function(){
   account = document.getElementById('account').value + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   thumbnail = document.getElementById('thumbnail').value;
   result = document.getElementById('result');
-  result.innerHTML = link + age + appropriate + patience + whatIsSDS + selected + ask + idea + wiki + account + thumbnail + result;
+  result.innerHTML = link + age + appropriate + patience + whatIsSDS + selected + ask + idea + wiki + account + thumbnail;
 };
