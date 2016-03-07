@@ -4,7 +4,7 @@ window.onload = function(){
   age = document.getElementById('age');
   appropriate = document.getElementById('appropriate');
   patience = document.getElementById('patience');
-  whatIsSDS = document.getElementById('whatisSDS');
+  whatIsSDS = document.getElementById('whatIsSDS');
   result = document.getElementById('result');
 };
 
