@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="languages.js"></script>
     <script src="formatter.js"></script>
     <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
-  <body>
+  <body onload="dropdownPrep()">
     <div class="header">
       <h2>Instructions</h2>
     </div>
@@ -28,6 +29,17 @@
       <b><p>Please make sure that the translations are in the order they are on the page!</p></b>
       <p>Now all you need to do is contact @LiFaytheGoblin, @technoboy10, or @The_Grits and leave a link to your translation!</p>
       <p>Thanks for helping out!</p>
+    </div>
+    <div class="header">
+      <h2>Translation information</h2>
+    </div>
+    <div class="content">
+      <p>Select the language you're translating the description into.</p>
+      <select id="lang" onchange="render()"></select>
+      <p>Translated by (your Scratch username here)</p>
+      <input type="text" placeholder="Your translation here" id="translator" size="75">
+      <br/>
+      <br/>
     </div>
     <div class="header">
       <h2>Unique part of description</h2>
@@ -65,7 +77,6 @@
       <input type="text" placeholder="Your translation here" id="unique8" size="75">
       <br/>
     </div>
-    <p id="result"></p>
     <br/>
     <br/>
     <div class="header">
@@ -117,7 +128,6 @@
       <br/>
       <br/>
     </div>
-    <p id="result2"></p>
     <br/>
     <br/>
     <div class="header">
@@ -129,6 +139,6 @@
       <br/>
       <br/>
     </div>
-    <p id="result3"></p>
+    <textarea id="result" onclick="this.focus();this.select()" readonly></textarea>
   </body>
 </html>

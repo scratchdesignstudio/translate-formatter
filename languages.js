@@ -1,6 +1,6 @@
 /* These are the languages that Scratch supports, taken from the scratch-www repository. */
 
-var l10n = {"English":"en",
+var l10n = {
 "Aragonés":"an",
 "Asturianu":"ast",
 "Bahasa Indonesia":"id",
@@ -10,13 +10,9 @@ var l10n = {"English":"en",
 "Cymraeg":"cy",
 "Dansk":"da",
 "Dari":"fa-af",
-"Deutsch":"de",
-"Edible Scratch":"yum",
 "Eesti":"et",
 "Esperanto":"eo",
-"Español":"es",
 "Euskara":"eu",
-"Français":"fr",
 "Gaeilge":"ga",
 "Gàidhlig":"gd",
 "Galego":"gl",
