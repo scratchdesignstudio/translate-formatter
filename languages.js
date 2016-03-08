@@ -1,3 +1,5 @@
+/* These are the languages that Scratch supports, taken from the scratch-www repository. */
+
 var l10n = {"en":"English",
 "an":"Aragonés",
 "ast":"Asturianu",
