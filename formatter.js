@@ -1,5 +1,7 @@
 var link, age, appropriate, patience, whatIsSDS, result;
 document.onkeyup = function(){
+  unique1 = document.getElementById('unique1').value
+  unique1 = document.getElementById('unique1').value
   link = document.getElementById('link').value.replace(/[\"]/g, "\\\"") + "\\n" + "&lt;br/&gt;";
   age = document.getElementById('age').value.replace(/[\"]/g, "\\\"") + "\\n" + "&lt;br/&gt;";
   appropriate = document.getElementById('appropriate').value.replace(/[\"]/g, "\\\"") + "\\n" + "&lt;br/&gt;";
