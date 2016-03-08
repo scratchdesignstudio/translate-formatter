@@ -24,4 +24,8 @@ document.onkeyup = function(){
   thumbnail = document.getElementById('thumbnail').value.replace(/[\"]/g, "\\\"");
   result2 = document.getElementById('result2');
   result2.innerHTML = link + age + appropriate + patience + whatIsSDS + selected + ask + idea + wiki + account + thumbnail;
+  
+  curators = document.getElementById('curators').value.replace(/[\"]/g, "\\\"");
+  result3 = document.getElementById('result3');
+  result3.innerHTML = curators;
 };
