@@ -1,13 +1,13 @@
 var link, age, appropriate, patience, whatIsSDS, result;
 document.onkeyup = function(){
-  unique1 = document.getElementById('unique1').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;&lt;br/&gt;";
+  unique1 = document.getElementById('unique1').value.replace(/[\"]/g, "\\\"") + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;";
   unique3 = document.getElementById('unique3').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;";
   unique4 = document.getElementById('unique4').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;";
   unique5 = document.getElementById('unique5').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;";
   unique6 = document.getElementById('unique6').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;";
-  unique7 = document.getElementById('unique7').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;&lt;br/&gt;";
-  unique8 = document.getElementById('unique8').value.replace(/[\"]/g, "\\\"") + "&lt;br/&gt;&lt;br/&gt;";
+  unique7 = document.getElementById('unique7').value.replace(/[\"]/g, "\\\"") + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
+  unique8 = document.getElementById('unique8').value.replace(/[\"]/g, "\\\"") + "\\n" +"&lt;br/&gt;&lt;br/&gt;";
   result = document.getElementById('result');
   result.innerHTML = unique1 + unique2 + unique3 + unique4 + unique5 + unique6 + unique7 + unique8;
   
