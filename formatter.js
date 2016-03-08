@@ -11,6 +11,6 @@ document.onkeyup = function(){
   wiki = document.getElementById('wiki').value.replace(/[\"]/g, "\\\"") + " &lt;a href=\"http://wiki.scratch.mit.edu/wiki/SDS/\"&gt;" + "http://wiki.scratch.mit.edu/wiki/SDS/" + "&lt;/a&gt;" + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   account = document.getElementById('account').value.replace(/[\"]/g, "\\\"") +  " &lt;a href=\"https://scratch.mit.edu/users/SDS-Updates/\"&gt;" + "@SDS-Updates" + "&lt;/a&gt;" + "\\n" + "&lt;br/&gt;&lt;br/&gt;";
   thumbnail = document.getElementById('thumbnail').value.replace(/[\"]/g, "\\\"");
-  result = document.getElementById('result');
-  result.innerHTML = link + age + appropriate + patience + whatIsSDS + selected + ask + idea + wiki + account + thumbnail;
+  result2 = document.getElementById('result2');
+  result2.innerHTML = link + age + appropriate + patience + whatIsSDS + selected + ask + idea + wiki + account + thumbnail;
 };
