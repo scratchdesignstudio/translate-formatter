@@ -13,6 +13,7 @@ body {
   padding: 5px;
   margin: 0px;
   margin-bottom: 10px;
+  box-shadow: -5px 5px 5px #888888;
 }
 h2 {
   padding: 0px;
