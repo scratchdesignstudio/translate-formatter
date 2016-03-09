@@ -5,6 +5,7 @@ body {
   width: 100vw;
   margin: 0;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 a:link, a:visited {
