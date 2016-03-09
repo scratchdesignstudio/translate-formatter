@@ -88,7 +88,7 @@ p {
 
 select {
   font-size: 18px;
-  color: rgba(0,0,0,0.6);
+  color: black;
 	background-color:white;
 	border-radius: 0;
 	border: none;
@@ -102,9 +102,8 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	fill: #777;
 	background: url("downarrow.svg") 97%/5% no-repeat;
-	background-size: 19px;
+	background-size: 18px;
 	height: auto;
 	width: 200px;
 	-webkit-transition: border-bottom 200ms ease-in-out;
