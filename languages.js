@@ -9,6 +9,7 @@ var l10n = {
 "Česky":"cs",
 "Cymraeg":"cy",
 "Dansk":"da",
+"Deutsch":"de",
 "Dari":"fa-af",
 "Eesti":"et",
 "Esperanto":"eo",
