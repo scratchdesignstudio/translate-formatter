@@ -10,6 +10,10 @@ var dropdownPrep = function(){
 }
 
 var render = function(){
+  var results = document.getElementsByClassName('finish');
+  for (var i = 0; i < results.length; i++){
+    results[i].style.display = 'block';
+  }
   var dropdown = document.getElementById("lang");
   var lang = dropdown.value;
   var final = {};
@@ -42,7 +46,8 @@ var render = function(){
   var curators = document.getElementById('curatorsp').value.replace(/[\"]/g, "\\\"");
   var result = document.getElementById('result');
   final[lang]["curators"] = curators;
-  result.value = JSON.stringify(final,null,2);
+
+  result.value = JSON.stringify(final,null,2).slice(2,-2);
 };
 
 document.onkeyup = render;

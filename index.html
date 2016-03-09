@@ -12,21 +12,22 @@
     <div id="instructions" class="content">
       <p>Would you like to help translate the SDS?</p>
       <p>Fantastic! Here are some instructions:</p>
-      <p>To start, simply type in the translation of each part into the text box below it.</p>
-      <p>As you type, you should notice that there is a result forming at the bottom of that section.</p>
+      <p>To start, fill in the language you are translating and your username.</p>
+      <p>Then, simply type in the translation of each part into the text box below it.</p>
+      <p>Once you start typing, a new section labeled "Result" should appear at the bottom of the page.</p>
       <br/>
       <b><p>If you have a Github account:</p></b>
       <p>Once you are done translating all of the parts, open this link in a new tab: <a href="https://github.com/scratchdesignstudio/info#fork-destination-box">Fork the info repository</a></p>
       <p>Now you have two options: </p>
-      <p>a)(Easy)Make a .txt file in your fork </p>
-      <p>b)(Advanced)Directly add them into the l10n.js file</p>
+      <p>a) Make a .txt file in your fork </p>
+      <p>b) Directly add them into the l10n.js file</p>
       <br/>
       <b><p>If you do not have a Github account:</p></b>
       <p>Once you are done translating all of the parts, put them all into a .txt file.</p>
       <p>Make sure that we can get to the .txt file by sharing on a platform such as Google Drive or pastebin</p>
       <br/>
       <br/>
-      <b><p>Please make sure that the translations are in the order they are on the page!</p></b>
+      <b><p>Please make sure that you copy the translation exactly!</p></b>
       <p>Now all you need to do is contact @LiFaytheGoblin, @technoboy10, or @The_Grits and leave a link to your translation!</p>
       <p>Thanks for helping out!</p>
     </div>
@@ -35,7 +36,7 @@
     </div>
     <div class="content">
       <p>Select the language you're translating the description into.</p>
-      <select id="lang" onchange="render()"></select>
+      <select id="lang" onchange="render()"><option disabled selected id="default" value="invalid">Your language here</option></select>
       <p>Translated by (your Scratch username here)</p>
       <input type="text" placeholder="Your translation here" id="translator" size="75">
       <br/>
@@ -139,6 +140,12 @@
       <br/>
       <br/>
     </div>
-    <textarea id="result" onclick="this.focus();this.select()" readonly></textarea>
+    <div class="finish header">
+      <h2>Result</h2>
+    </div>
+    <div class="finish content">
+      <p>Thanks for your help! Copy the text below and follow the instructions at the top of the page to submit your translation.</p>
+      <textarea id="result" onclick="this.focus();this.select()" readonly></textarea>
+    </div>
   </body>
 </html>
