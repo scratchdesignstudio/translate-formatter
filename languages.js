@@ -27,7 +27,6 @@ var l10n = {
 "Lietuvių":"lt",
 "Magyar":"hu",
 "Malti":"mt",
-"Meow":"cat",
 "Nederlands":"nl",
 "Norsk Bokmål":"nb",
 "Oʻzbekcha":"uz",
