@@ -3,7 +3,6 @@
 var l10n = {
 "Aragonés":"an",
 "Asturianu":"ast",
-"Bahasa Indonesia":"id",
 "Bahasa Melayu":"ms",
 "Català":"ca",
 "Česky":"cs",
@@ -41,7 +40,6 @@ var l10n = {
 "Svenska":"sv",
 "Tepehuan":"nai",
 "Tiếng Việt":"vi",
-"Türkçe":"tr",
 "Аҧсшәа":"ab",
 "العربية":"ar",
 "Български":"bg",
