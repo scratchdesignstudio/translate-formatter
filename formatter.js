@@ -49,8 +49,8 @@ var render = function(){
   var result = document.getElementById('result');
   final[lang]["curators"] = curators;
 
-  result.value = JSON.stringify(final,null,2).slice(2,-2);
-  console.log(JSON.stringify(final,null,2).slice(2,-2));
+  result.value = JSON.stringify(final,null,2).slice(2,-2) + ",";
+  console.log(JSON.stringify(final,null,2).slice(2,-2) + ",");
 };
 
 document.onkeyup = render;
