@@ -11,7 +11,6 @@ var l10n = {
 "da":"Dansk",
 "fa-af":"Dari",
 "de":"Deutsch",
-"yum":"Edible Scratch",
 "et":"Eesti",
 "eo":"Esperanto",
 "es":"Español",
