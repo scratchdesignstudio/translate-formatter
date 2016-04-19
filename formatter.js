@@ -24,13 +24,7 @@ var render = function(){
   final[lang]["translator"] = document.getElementById('translator').value.replace(/[\"]/g, "\\\"");
   var unique1 = document.getElementById('unique1').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/><br/>";
   var unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "<br/>" + "<a href=\"https://scratch.mit.edu/projects/86370044/\">https://scratch.mit.edu/projects/86370044/</a><br/>" + "<a href=\"https://scratch.mit.edu/projects/85132566/\">https://scratch.mit.edu/projects/85132566/</a><br/>" + "<a href=\"https://scratch.mit.edu/projects/85111610/\">https://scratch.mit.edu/projects/85111610/</a><br/><br/>";
-  var unique3 = document.getElementById('unique3').value.replace(/[\"]/g, "\\\"") + "<br/>";
-  var unique4 = document.getElementById('unique4').value.replace(/[\"]/g, "\\\"") + "<br/>";
-  var unique5 = document.getElementById('unique5').value.replace(/[\"]/g, "\\\"") + "<br/>";
-  var unique6 = document.getElementById('unique6').value.replace(/[\"]/g, "\\\"") + "<br/>";
-  var unique7 = document.getElementById('unique7').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/><br/>";
-  var unique8 = document.getElementById('unique8').value.replace(/[\"]/g, "\\\"") + "\n" + "<a href=\"https://scratch.mit.edu/projects/96160058/\">https://scratch.mit.edu/projects/96160058/</a><br/>" + "<br/><br/>";
-  final[lang]["unique"] = unique1 + unique2 + unique3 + unique4 + unique5 + unique6 + unique7 + unique8;
+  final[lang]["unique"] = unique1 + unique2;
 
   var link = document.getElementById('link').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/>";
   var age = document.getElementById('age').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/>";
