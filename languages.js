@@ -12,6 +12,7 @@ var l10n = {
 "Eesti":"et",
 "Esperanto":"eo",
 "Euskara":"eu",
+"Français":"fr",
 "Gaeilge":"ga",
 "Gàidhlig":"gd",
 "Galego":"gl",
