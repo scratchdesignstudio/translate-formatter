@@ -23,7 +23,7 @@ var render = function(){
 
   final[lang]["translator"] = document.getElementById('translator').value.replace(/[\"]/g, "\\\"");
   var unique1 = document.getElementById('unique1').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/><br/>";
-  var unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "<br/>" + "<a href=\"https://scratch.mit.edu/projects/86370044/\">https://scratch.mit.edu/projects/86370044/</a><br/>" + "<a href=\"https://scratch.mit.edu/projects/85132566/\">https://scratch.mit.edu/projects/85132566/</a><br/>" + "<a href=\"https://scratch.mit.edu/projects/85111610/\">https://scratch.mit.edu/projects/85111610/</a><br/><br/>";
+  var unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "<br/>";
   final[lang]["unique"] = unique1 + unique2;
 
   var link = document.getElementById('link').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/>";
