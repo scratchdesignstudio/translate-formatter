@@ -3,8 +3,8 @@ var dropdownPrep = function(){
   var option;
   for (var lang in l10n){
     option = document.createElement("option");
-    option.innerHTML = lang;
-    option.value = l10n[lang];
+    option.innerHTML = l10n[lang];
+    option.value = lang;
     dropdown.appendChild(option);
   }
 }
