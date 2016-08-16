@@ -23,8 +23,8 @@ var render = function(){
 
   final[lang]["translator"] = document.getElementById('translator').value.replace(/[\"]/g, "\\\"");
   var unique1 = document.getElementById('unique1').value.replace(/[\"]/g, "\\\"") + "\n" + "<br/><br/>";
-  var unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "<br/>";
-  var unique3 = document.getElementById('unique3').value.replace(/[\"]/g, "\\\"") + "<br/>";
+  var unique2 = document.getElementById('unique2').value.replace(/[\"]/g, "\\\"") + "<br/><br/>";
+  var unique3 = document.getElementById('unique3').value.replace(/[\"]/g, "\\\"") + "<br/><br/>";
   var unique4 = document.getElementById('unique4').value.replace(/[\"]/g, "\\\"") + "<br/>";
   final[lang]["unique"] = unique1 + unique2 + unique3 + unique4;
 
